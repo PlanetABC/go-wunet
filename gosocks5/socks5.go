@@ -115,6 +115,7 @@ func ReadMethods(r io.Reader) ([]uint8, error) {
 	}
 
 	length := 2 + int(b[1])
+	n++
 	if n < length {
 		if _, err := io.ReadFull(r, b[n:length]); err != nil {
 			return nil, err
