@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/shadowsocks/go-shadowsocks2/shadowaead"
+	"github.com/PlanetABC/go-wunet/go-wunetsocks2/wunetaead"
 )
 
 type Cipher interface {
